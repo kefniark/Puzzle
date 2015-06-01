@@ -6,6 +6,8 @@ public class Bubble : MonoBehaviour {
 	public GameObject prefab = null;
 	public float x;
 	public float y;
+	public float rotation = 0f;
+	public float speed = 0f;
 
 	// Use this for initialization
 	void Start () {
